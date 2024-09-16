@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.back {
+  width: 100%;
+  height: 800px;
+  background-image: url(Images/backclone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+select {
+  width: 100px;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+}
+.navbar a {
+  color: #fff;
+  background-color: rgb(180, 10, 10);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.navbar ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.heading 
+{
+  margin: auto;
+  width: 600px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+.heading h1 {
+  text-align: center;
+  font-weight: 600;
+}
+.heading p {
+  font-size: 30px;
+  text-align: center;
+}
+span {
+  color: #fff;
+  font-size: 16px;
+  margin: 20px;
+}
+.form input {
+  background-color: #000;
+  padding: 20px;
+  text-align: left;
+  opacity: 0.7;
+  width: 100%;
+  font-size: 18px;
+}
+.form a {
+  color: #fff;
+  background-color: rgb(180, 10, 10);
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.form ul li {
+  list-style-type: none;
+  padding: 0 10px;
+  margin: 20px 0;
+}
+.form ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input
+{
+    color: white;
+}
+.last {
+  width: 100%;
+  height: 600px;
+  border-top-left-radius: 50% 10%;
+  border-top-right-radius: 50% 10%;
+  border-bottom: none;
+  background-color: rgb(5, 5, 14);
+  border-top: 5px red solid;
+  position: absolute;
+  bottom: -530px;
+}
+.last h2 {
+  color: #fff;
+  margin: 5% 0;
+  padding: 0 5%;
+}
+.one {
+  width: 200px;
+  height: 300px;
+}
+.one:hover
+{
+  width: 210px;
+  height: 310px;
+  transition: all;
+  transition-duration: 1s linear;
+}
+.one img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.image_section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.log {
+  width: 450px;
+  height: 580px;
+  border-radius: 20px;
+  background-color: black;
+  opacity: 0.7;
+  margin: auto;
+  position: absolute;
+  top: 170px;
+  left: 35%;
+  z-index: 1;
+}
+.log h1 {
+  color: white;
+  padding: 30px;
+  margin: 20px;
+}
+.loging input {
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+}
+button {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  background-color: rgb(180, 10, 18);
+  color: white;
+  border-radius: 10px;
+}
+.loging h3,
+h4 {
+  text-align: center;
+  color: white;
+}
+.code {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+}
+.check label {
+  color: white;
+}
+.check {
+  text-align: left;
+  padding: 0 20px;
+}
+.check p,
+h5 {
+  color: white;
+  padding: 10px 0;
+}
+.black {
+  background-color: black;
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  top: 710px;
+}
+.links p
+{
+    margin: 40px;
+    padding:  0 40px;
+    color: white;
+}
+.links ul ,.links2 ul
+{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+}
+.links ul li a ,.links2 ul li a{
+    color: white;
+    padding: 40px;
+}
+.lang
+{
+    margin: 40px;
+    padding: 0 40px;
+}
+.linksbox 
+{
+    width: 800px;
+    height: 350px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+
+}
+
+
